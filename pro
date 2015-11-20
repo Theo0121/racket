@@ -96,7 +96,7 @@
     ; the Cells in 'cells'.
     
     (define (extend cells)
-          (try (random adjacents cells) cells))
+          (try (random (adjacents cells)) cells))
     
     
 
