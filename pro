@@ -1,4 +1,3 @@
-;**Code:**
 
     (require picturing-programs)
     ; maze size
@@ -100,13 +99,6 @@
           (try (random adjacents cells) cells))
     
     
-
-;I've tried this and it seems to give me an error saying:
-
-;**"random: expects only 1 argument, but found 2"**
-
-
-;**This code should pass the test but it gives an error, why?**
 
     ;Check-expect
     (define small-maze (extend (list (make-Cell 0 0))))
